@@ -1,0 +1,5 @@
+# Wiederholt alle 0 Sekunden die Tab-Liste für alle Spieler
+every 0 seconds:
+    loop all players:
+        set tablist header of loop-player to "&e&lWelcome! &e%player%"
+        set tablist footer of loop-player to "&f&oPowered By EasyTab Skript"
